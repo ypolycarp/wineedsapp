@@ -1,0 +1,60 @@
+body {
+  /*padding-top: 56px;*/
+  background-color: /*#33FF49;*/#33FF49;
+}
+nav {
+  background-color: green;
+  /*opacity: 0.3;*/
+}
+footer {
+  /*background-color: green;
+  opacity: 0.3;*/
+}
+.footer{
+  background: /*#152F4F*/black;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+#wine {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.copy-left{float: left;}
+.copy-right{float: right; text-align: right;}
+.div3{/*margin-left: 10px;*/border-left: 5px solid #33FF49;}
+.div1{/*margin-right: 10px;*/border-right: 5px solid #33FF49;}
+.divv{margin-bottom: 10px;}
+.vspace{margin-right: 5; margin-left: 10px;}
+.topr{border-left: 5px solid #33FF49;/*border-right: 5px solid green;*/flex: 1; /* additionally, equal width */padding-bottom: 100%;
+    margin-bottom: -100%;}
+.topl{border-right: 5px solid #33FF49;flex: 1; /* additionally, equal width */padding-bottom: 100%;
+    margin-bottom: -100%;}
+.topdiv{display: flex; /* equal height of the children */ overflow: hidden;}
+ol.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: none;
+}
